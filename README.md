@@ -9,6 +9,7 @@ This project is a clone of Wynk Music, a popular music streaming platform. It ha
 - Trending Page
 - Old Songs Page
 - New Songs Page
+- Party Songs Page
 - Top Hindi Albums
 - Top Artists
 - Podcasts
