@@ -1,0 +1,1068 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(12, 15, 18);
+}
+img{
+    max-width: none!important;
+}
+.Bcontainer {
+    /* border: 2px red solid; */
+    max-width: 100vw;
+    height:100%;
+    position: relative;
+    top: 0;
+}
+
+.Bnavbar {
+    width: 100%;
+    padding: 1px;
+    height: fit-content;
+    
+    /* position: relative;
+    top: 0; */
+    /* border: solid 2px red; */
+    /* background-color: rgba(11, 245, 42, 0.925); */
+}
+
+.B-header {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.925); */
+}
+
+.B-header .Bupper-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.6rem;
+    padding-left: 6rem;
+    color: rgb(235, 235, 235);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* background-image: linear-gradient(180deg,#1c1c1c,#1c1b1b 42.69%,#161616); */
+    background-color: rgb(27, 26, 26);
+}
+.B-header .Bupper-nav .Blogo {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.B-header .Bupper-nav .Blogo:hover,
+.input:hover,
+.B-Manage:hover,
+.login:hover {
+    cursor: pointer;
+}
+
+.B-header .Bupper-nav .B-Manage:hover,
+.login div:hover {
+    opacity: 0.5;
+}
+
+.B-header .Bupper-nav .Blogo .img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.B-header .Bupper-nav .Bnav-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .input {
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 2rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+}
+
+.B-header .Bupper-nav .Bnav-content .input input {
+    border: none;
+    padding-bottom: 0.6;
+    padding: 0.7rem;
+    padding-left: 0;
+    padding-right: 2.7rem;
+    margin-left: 0;
+    color: rgb(135, 135, 147);
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(37, 37, 37);
+    text-align: start;
+}
+
+.B-header .Bupper-nav .Bnav-content .B-Manage {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-right: solid 2px rgb(73, 73, 73);
+    padding-right: 1rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .B-Manage .rupee {
+    border: solid 2px rgb(233, 233, 233);
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(253, 253, 253);
+    ;
+}
+.B-header .Bupper-nav .Bnav-content .B-Manage h4 {
+    color: rgb(253, 253, 253);
+    font-size: 1rem;
+}
+.B-header .Blower-nav {
+    width: 100%;
+    background-color: rgb(12, 15, 18);
+    /* box-shadow: 10px 10px 5px rgb(8, 8, 8); */
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid 2px red; */
+}
+
+.B-header .Blower-nav .Bmenu {
+    display: flex;
+     padding: 1.5rem;
+     padding-right: 0;
+    /* gap: 1.5rem; */
+    gap: 25.50px;
+    align-items: center;
+    font-weight: 300;
+    width: 80%;
+    /* border: solid 2px white; */
+    /* margin-left: 1.5rem; */
+}
+
+.B-header .Blower-nav .Bmenu a {
+    color: rgb(163, 167, 174);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+.B-header .Blower-nav .Bmenu select {
+    border: none;
+    background-color: rgb(12, 15, 18);
+    color: rgb(163, 167, 174);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.B-header .Blower-nav .Bmenu select>option:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu select:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu a:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu .Bliste a {
+    color: white;
+    font-weight: 700;
+}
+
+.B-header .Blower-nav .adds {
+    width: 10rem;
+    height: 2.3rem;
+    background-color: blue;
+    border-radius: 0.3rem 0 0 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.B-Up-main1 {
+    width: 100%;
+    /* height: 69%; */
+    padding-top: 0.3rem;
+    position: relative;
+}
+.B-Crasoul {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    gap: 25px;
+
+}
+
+.B-Crasoul .B-Cras,
+.B-Cras,
+.B-Cras {
+    background-image: center;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+.B-Crasoul .B-Cras .btn1 {
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.B-Crasoul .B-Cras .btn1 button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.B-Crasoul .B-Cras .btn2 {
+    position: absolute;
+    top: 8rem;
+    right: 6rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.B-Crasoul .B-Cras .btn2 button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+.B-Crasoul img {
+    size: cover;
+    border-radius: 0.5rem;
+    width: auto;
+}
+
+.B-Songs-sec {
+    color: white;
+    font-weight: 800;
+    margin-top: 1.2rem;
+    padding: 5rem;
+    padding-right: 5.9rem;
+    padding-bottom: 0;
+    position: relative;
+    /* border: solid 2px orange; */
+    width: 100%;
+    height: fit-content;
+}
+
+.B-Songs-sec .titls {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.B-Songs-sec .titls h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.B-Songs-sec .titls button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: rgb(194, 17, 18);
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.B-Songs-sec .titls button:hover {
+    background-color: rgb(194, 17, 18);
+    color: white;
+    cursor: pointer;
+}
+
+.B-Songs-sec .B-vdos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-weight: 900;
+    /* border:solid 2px blue; */
+    /* flex-wrap: wrap; */
+    /* overflow-x: scroll; */
+}
+.B-Songs-sec .B-vdos::-webkit-scrollbar {
+    width: 0.7em;
+    background: transparent;
+  }
+.B-Songs-sec .B-vdos::-webkit-scrollbar-thumb {
+    background:transparent;
+  }
+
+.B-Songs-sec .B-vdos .thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.B-Songs-sec .B-vdos .thumbnails .row-1-img {
+    width: 10.5rem;
+    height: 10.5rem;
+    border-radius: 10%;
+    background-size: cover;
+    /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+    overflow: hidden;
+    position: relative;
+    margin: 0.5rem;
+}
+
+.B-Songs-sec .B-vdos .thumbnails .row-1-img button {
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5rem;
+    left: 4rem;
+    align-items: center;
+    z-index: -100;
+}
+
+.B-Songs-sec .B-vdos .thumbnails .row-1-img img {
+    width: 100%;
+    z-index: 1;
+
+}
+
+.B-Songs-sec .B-vdos .thumbnails .row-1-img img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+.B-Songs-sec .B-vdos .thumbnails .btn {
+    position: absolute;
+    top: 12rem;
+    right: 5rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+
+}
+.B-Songs-sec .B-vdos .thumbnails .btn button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+/* 2nd row,3rd row */
+
+.B-TSongs-sec {
+    color: white;
+    font-weight: 800;
+    padding: 5.5rem;
+    padding-top: 3.5rem;
+    padding-right: 5.9rem;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.B-TSongs-sec .titls {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.B-TSongs-sec .titls h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.B-TSongs-sec .titls button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: rgb(194, 17, 18);
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.B-TSongs-sec .titls button:hover {
+    background-color: rgb(194, 17, 18);
+    color: white;
+    cursor: pointer;
+}
+
+.B-TSongs-sec .B-vdos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 900;
+}
+
+.B-TSongs-sec .B-vdos .thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .row-1-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 10%;
+    background-size: cover;
+    position: relative;
+    /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+    overflow: hidden;
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .row-1-img button {
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5rem;
+    left: 4rem;
+    align-items: center;
+    z-index: -100;
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .row-1-img img {
+    width: 100%;
+
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .row-1-img img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .btn {
+    position: absolute;
+    top: 9.5rem;
+    right: 5rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+
+}
+
+.B-TSongs-sec .B-vdos .thumbnails .btn button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+/* 4section */
+.B-4Songs-sec {
+    color: white;
+    font-weight: 800;
+    padding: 5.5rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    padding-right: 5.9rem;
+    position: relative;
+}
+
+.B-4Songs-sec .titls {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.B-4Songs-sec .titls h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.B-4Songs-sec .titls button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: rgb(194, 17, 18);
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.B-4Songs-sec .titls button:hover {
+    background-color: rgb(194, 17, 18);
+    color: white;
+    cursor: pointer;
+}
+
+.B-4Songs-sec .B-vdos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 900;
+}
+
+.B-4Songs-sec .B-vdos .thumbnails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 900;
+}
+
+.B-4Songs-sec .B-vdos .thumbnails .row-1-img {
+    width: 10.5rem;
+    height: 10.5rem;
+    border-radius: 50%;
+    background-size: cover;
+    /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+    overflow: hidden;
+}
+
+.B-4Songs-sec .B-vdos .thumbnails .row-1-img img {
+    width: 100%;
+
+}
+
+.B-4Songs-sec .B-vdos .thumbnails .row-1-img img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.B-4Songs-sec .B-vdos .thumbnails .btn {
+    position: absolute;
+    top: 10.6rem;
+    right: 5.3rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+
+
+}
+img, video {
+    width: none;
+    /* height: auto; */
+}
+.B-4Songs-sec .B-vdos .thumbnails .btn button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+/* many-vdoss */
+
+.B-many-Songs-sec {
+    color: white;
+    font-weight: 800;
+    padding: 5.5rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    padding-right: 5.9rem;
+    position: relative;
+}
+
+.B-many-Songs-sec .titls {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.B-many-Songs-sec .titls h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.B-many-Songs-sec .titls button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: rgb(194, 17, 18);
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.B-many-Songs-sec .titls button:hover {
+    background-color: rgb(194, 17, 18);
+    color: white;
+    cursor: pointer;
+}
+
+.B-many-Songs-sec .B-vdos {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    height: auto;
+    justify-content: space-between;
+    font-weight: 900;
+    /* border: solid 2px red; */
+    overflow-x: hidden;
+    padding: 0.3rem;
+    width: 99%;
+
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails {
+    display: flex;
+    flex-direction: column;
+    /* font-weight: 900; */
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails h4 {
+    font-weight: 400;
+    margin-top: 0.7rem;
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(129, 140, 148);
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails .row-1-img {
+    width: 8.8rem;
+    height: 8.8rem;
+    border-radius: 8%;
+    background-size: cover;
+    position: relative;
+    /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+    overflow: hidden;
+}
+.B-many-Songs-sec .B-vdos .thumbnails .row-1-img button{
+    width: 26%;
+    height: 26%;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5rem;
+    left: 3rem;
+    align-items: center;
+    z-index: -100;
+}
+.B-many-Songs-sec .B-vdos .thumbnails .row-1-img img {
+    width: 100%;
+
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails .row-1-img img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails .btn {
+    position: absolute;
+    top: 10.4rem;
+    right: 5.7rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+
+
+}
+
+.B-many-Songs-sec .B-vdos .thumbnails .btn button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 2.7rem;
+    height: 2.7rem;
+    color: rgb(255, 255, 255);
+}
+
+/* special div */
+
+.B-small-Songs-sec {
+    color: white;
+    font-weight: 800;
+    padding: 5.5rem;
+    padding-right: 5.9rem;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.B-small-Songs-sec .titls {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.B-small-Songs-sec .titls h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.B-small-Songs-sec .titls button {
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    color: rgb(194, 17, 18);
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.B-small-Songs-sec .titls button:hover {
+    background-color: rgb(194, 17, 18);
+    color: white;
+    cursor: pointer;
+}
+
+.B-small-Songs-sec .B-vdos {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    font-weight: 900;
+}
+
+.B-small-Songs-sec .B-vdos .thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.B-small-Songs-sec .B-vdos .thumbnails .row-1-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 10%;
+    background-size: cover;
+    position: relative;
+    /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+    overflow: hidden;
+}
+.B-small-Songs-sec .B-vdos .thumbnails .row-1-img button{
+    width: 26%;
+    height: 26%;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.9rem;
+    left: 3.5rem;
+    align-items: center;
+    z-index: -100;
+}
+.B-small-Songs-sec .B-vdos .thumbnails .row-1-img img {
+    width: 100%;
+
+}
+
+.B-small-Songs-sec .B-vdos .thumbnails .row-1-img img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.B-small-Songs-sec .B-vdos .thumbnails .btn {
+    position: absolute;
+    top: 12rem;
+    right: 5rem;
+    background-color: rgba(13, 14, 14, 0.712);
+    color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+
+}
+
+.B-small-Songs-sec .B-vdos .thumbnails .btn button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+/* for footer */
+footer {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.B-About-wynks {
+    color: white;
+    border: solid 1px rgb(163, 167, 174);
+    background-repeat: no-repeat;
+    background-image: url("https://wynk.in/assets/images/quote.png");
+    background-position: top right 20px;
+    border-radius: 0.5rem;
+    width: 85%;
+    padding: 2rem;
+
+}
+
+.B-About-wynks div {
+    width: 90%;
+}
+
+.B-About-wynks div h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    margin-top: 0.3rem;
+}
+
+.B-About-wynks div p {
+    font-size: 0.9rem;
+    color: rgb(163, 167, 174);
+    margin-bottom: 1.7rem;
+}
+
+@media (max-width:1024px) {
+
+    .B-Songs-sec .B-vdos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: hidden;
+        padding: inherit;
+    }
+    .B-TSongs-sec .B-vdos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: hidden;
+        gap:0.2rem;
+    }
+
+    .Bnavbar .B-header .Blower-nav .Bmenu {
+        gap: 0.6rem;
+    }
+    .B-header .Bupper-nav .login div {
+        display: none;
+    }
+
+}
+
+@media (max-width:975px) {
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+    }
+    .B-Songs-sec{
+        padding: 0;
+    }
+    .Bnavbar .B-header .Blower-nav {
+        background-color: rgb(12, 15, 18);
+        overflow-x: scroll;
+    }
+    .Bnavbar .B-header .Blower-nav::-webkit-scrollbar {
+        width: 0.5em;
+        background: transparent;
+      }
+    .Bnavbar .B-header .Blower-nav::-webkit-scrollbar-thumb {
+        background:transparent;
+      }
+    .Bcontainer .Bnavbar .B-header .Blower-nav .adds{
+        display: none;
+    }
+    
+    .B-Songs-sec {
+        padding: 5.5rem;
+        padding-top: 0;
+        position: relative;
+        width: 100%;
+        height: fit-content;
+    }
+    .B-Songs-sec .B-vdos {
+        display: flex;
+        justify-content:center;
+        font-weight: 900;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .B-TSongs-sec {
+        padding: 5.5rem;
+        padding-top: 3.5rem;
+        width: 100%;
+        height: fit-content;
+        gap: 5rem;
+    }
+    .B-4Songs-sec {
+        padding: 5.5rem;
+        padding-top: 3.5rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .B-TSongs-sec .B-vdos {
+        display: flex;
+        justify-content:center;
+        padding:2rem;
+        flex-wrap: wrap;
+        font-weight: 900;
+    }
+    .B-Songs-sec .B-vdos .thumbnails .btn{
+        display: none;
+    }
+    .B-header .Blower-nav {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width:787px) {
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .input input {
+        display: none;
+    }
+    .B-header .Bupper-nav .login div {
+        display: none;
+    }
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .input {
+        border: none;
+    }
+
+    .Bcontainer {
+        width: 100%;
+    }
+    .Bnavbar .B-header .Blower-nav{
+        font-size: 0.5rem;
+    }
+    .B-TSongs-sec {
+        padding: top 0.5rem;;
+        padding: inherit;
+        padding-right:0;
+        padding-bottom: 0;
+        position: relative;
+    }
+    .B-Songs-sec {
+        /* padding:inherit; */
+        padding-top: 0.5rem;
+        padding-right:0;
+        padding-bottom: 0;
+    }
+    .B-Up-main1 .B-Crasoul .B-Cras .btn1 {
+        display: none;
+    }
+    .B-Up-main1 .B-Crasoul .B-Cras .btn2{
+        display: none;
+    }
+    .B-4Songs-sec {
+        padding:1rem;
+        padding-top: 4rem;
+        position: relative;
+    }
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+    }
+    .B-TSongs-sec .B-vdos {
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        padding: inherit;
+        flex-wrap: wrap;
+        font-weight: 900;
+        
+    }
+    .B-header .Bupper-nav{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:375px) {
+    .B-Up-main1 .B-Crasoul .B-Cras .btn1 {
+        display: none;
+    }
+    .B-Up-main1 .B-Crasoul .B-Cras .btn2{
+        display: none;
+    }
+    .Bcontainer .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+    }
+    .B-header .Bupper-nav{
+        padding: 0;
+    }
+    
+}
+
+

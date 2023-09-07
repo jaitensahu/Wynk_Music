@@ -1,0 +1,272 @@
+
+/* $itemGrow: 1.2;
+$duration: 250ms; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+
+}
+
+.wrapper {
+  width: 100vw;
+  height: 55vh;
+  display:grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  margin: 5rem;
+  /* border: solid 2px blue; */
+  overflow: hidden;
+}
+.wrapper section {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* margin: 20px 20px; */
+  /* border: solid 2px red; */
+}
+.wrapper section .item {
+  position: relative;
+  padding: 0 4px;
+  /* transition: 250ms all; */
+}
+.wrapper section .item .imagg{
+  /* border: solid 2px green; */
+  border-radius: 0.7rem;
+  height: 100%;
+}
+/* .wrapper section .item:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
+} */
+.wrapper section .item .heading {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+.wrapper section .item .duration {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff;
+}
+.wrapper section .arrow__btn {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 4em;
+  background: black;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.wrapper section .left-arrow {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+.wrapper section .right-arrow {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+/* body{
+  max-width: 100vw;
+}
+.B-header{
+        width: 100%;
+        position: sticky;
+        top:0;
+        background-color: rgba(0, 0, 0, 0.925);
+    }
+.B-header .Bupper-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding:0.6rem ;
+        padding-left: 6rem;
+        color: white;
+      background-image: linear-gradient(180deg,#1c1c1c,#1c1b1b 42.69%,#161616);
+      background-color: rgb(27,26,26);  
+    }
+.B-header .Blower-nav{
+        width: 100%;
+        background-color:rgb(12,15,18);
+        box-shadow: 10px 10px 5px rgb(8, 8, 8);
+        padding-left: 5rem;
+    }
+.B-header .Bupper-nav .Blogo{
+        display: flex;
+        color: white;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: space-between;
+    }
+.B-header .Bupper-nav .Blogo:hover, .input:hover, .B-Manage:hover, .login:hover{
+        cursor: pointer;
+    }
+.B-header .Bupper-nav .B-Manage:hover, .login div:hover{
+        opacity: 0.5;
+    }
+.B-header .Bupper-nav .Blogo .img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
+.B-header .Bupper-nav .Bnav-content{
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+        margin-right: 6rem;
+    }
+.B-header .Bupper-nav .Bnav-content .input{
+        border: solid 1px rgb(87,87,87);
+        border-radius: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-top: 0;
+        overflow: hidden;
+        background-color: rgb(37,37,37);
+    }
+.B-header .Bupper-nav .Bnav-content .input input{
+        border: none;
+        padding-bottom: 0.6;
+        padding: 0.7rem;
+        padding-left: 0;
+        padding-right: 2.7rem;
+        margin-left: 0;
+        color: rgb(135,135,147);
+        font-size:1rem;
+        font-weight: 300;
+        background-color: rgb(37,37,37);
+        text-align:start;
+    }
+.B-header .Bupper-nav .Bnav-content .B-Manage{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-right: solid 2px rgb(73,73,73);
+        padding-right: 1rem;
+    }
+.B-header .Bupper-nav .Bnav-content .B-Manage .rupee{
+        border: solid 2px rgb(233,233,233);
+        border-radius: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.2rem;
+    }
+.B-header .Bupper-nav .Bnav-content .login{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color:rgb(253,253,253); ;
+    }
+.B-header .Bupper-nav .Bnav-content .B-Manage h4{
+        color:rgb(253,253,253);
+        font-size: 1.1rem;
+    }
+.B-header .Blower-nav .Bmenu{
+        display: flex;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        align-items: center;
+        font-weight: 300;
+    }
+.B-header .Blower-nav .Bmenu a{
+        color:rgb(163,167,174) ;
+        text-decoration: none;
+        font-weight: 300;
+    }
+.B-header .Blower-nav .Bmenu a:hover{
+        text-decoration: underline;
+    }
+.B-header .Blower-nav .Bmenu .Bliste a{
+        color: white;
+        font-weight: 700;
+    } */
+
+
+
+  .B-Up-main1{
+      max-width: 100%;
+      height: 80%;
+      padding-top: 0.3rem;
+      border: solid 2px yellow;
+  }
+  .B-Up-main1 .B-Crasoul{
+     min-width: 100%;
+      height: 100%;
+      display:grid;
+      grid-template-columns: repeat(3, 70%);
+      align-items: center;
+      overflow: hidden;
+      gap: 30px;
+  
+  }
+  .B-Up-main1 .B-Crasoul .B-Cras, .B-Cras, .B-Cras{
+      margin-top: 0.5rem;
+      width: 100%;
+      background-image: center;
+      /* height: 100%; */
+      object-fit: cover;
+      border-radius: 5%;
+  }
+  .B-Up-main1 .B-Crasoul .B-Cras .btn1{
+      position: absolute;
+      top:39rem;
+      left:7rem;
+      background-color:rgba(13, 14, 14, 0.712);
+      color: rgb(255,255,255);
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+  }
+  .B-Up-main1 .B-Crasoul .B-Cras .btn1 button{
+      background-color:transparent;
+      border: none;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+      color: rgb(255,255,255);
+  }
+  
+  .B-Up-main1 .B-Crasoul .B-Cras .btn2{
+      position: absolute;
+      top:39rem;
+      right:6rem;
+      background-color:rgba(13, 14, 14, 0.712);
+      color: rgb(255,255,255);
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+  }
+  .B-Up-main1 .B-Crasoul .B-Cras .btn2 button{
+      background-color:transparent;
+      border: none;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+      color: rgb(255,255,255);
+  }
+  .B-Up-main1 .B-Crasoul img{
+    width: 100%;
+      size: cover;
+      border-radius: 0.6rem;
+  }

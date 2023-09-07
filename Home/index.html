@@ -1,0 +1,2968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wynk Music</title>
+    <link rel = "icon" href = 
+"https://wynk.in/_next/static/media/icon-384x384.522e458f.png" 
+        type = "image/x-icon" style="border-radius: 50px;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="./tailwindstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="Bcontainer">
+        <!-- navbar-with top-main -->
+        <div class="Bnavbar">
+
+            <!-- navbar -->
+            <nav class="B-header">
+                <!-- 1st navbar -->
+                <div class="Bupper-nav">
+                    <div class="Blogo">
+                        <a href="#"><img src="./logo-wynk.png" alt="icon" class="img"></a>
+                        <h3 style="font-size: 1.2rem; font-weight: 400;">Wynk Music
+                        </h3>
+                    </div>
+                    <div class="Bnav-content">
+                        <div class="input">
+                            <i class="fa-solid fa-magnifying-glass "
+                                style="color: rgb(176,176,184); border-left: 2px; padding-left: 1rem;margin-right: 0;padding-right: 1rem; font-size: larger; background-color:transparent"></i>
+                            <input type="search" placeholder="Search Songs">
+                        </div>
+                        <div class="B-Manage">
+                            <div class="rupee">
+                                <i class="fa-solid fa-indian-rupee-sign"
+                                    style="color: rgb(233,233,233); border-bottom:solid 2px #9e9d9d; border-radius: 10%; font-size:xx-small;"></i>
+                            </div>
+
+                            <h4>Manage Subscription</h4>
+                        </div>
+                        <div class="login">
+                            <div>
+                                <i class="fa-regular fa-user"
+                                    style="color: rgb(253,253,253); padding-right: 0.5rem;"></i>
+                                Login
+                            </div>
+                            <i class="fa-solid fa-bars icon"
+                                style="color: rgb(255,255,255); font-size: 1.5rem; margin-left: 0.7rem;"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ------------2nd navbar ----------------->
+                <div class="Blower-nav">
+                    <div class="Bmenu">
+                        <div class="Bliste">
+                            <a href="#" class="Bhome">
+                                All
+                            </a>
+                        </div>
+                        <div class="Blist">
+                            <a href="../trending (1).html">
+                                Trending Now
+                            </a>
+                        </div>
+                        <div class="Blist">
+                            <a href="../Ankit/oldSong.html">
+                                Old Songs
+                            </a>
+                        </div>
+                        <div class="Blist" style="display: flex; flex-shrink: shrink ;">
+                            <a href="../Ankit/newSong.html">
+                                New Songs
+                            </a>
+                        </div>
+                        <div class="Blistt">
+                            <a href="../MCT_Yadnika/MCT_Yadnika/party-songs.html">
+
+
+                                <select id="option" style="font-size: 1rem;">
+                                    <option value="saab"><a> Moods & Genre
+                                        </a></option>
+                                    <option value="opel">Party Songs</option>
+                                    <option value="audi">Dance Songs</option>
+                                    <option value="opel">Bollywood Songs</option>
+                                    <option value="audi">Romantic Songs</option>
+                                    <option value="audi">90's Hits</option>
+                                    <option value="audi">Ghazals</option>
+                                    <option value="audi">Bhakti Songs</option>
+                                </select>
+                            </a>
+                        </div>
+                        <div class="Blist">
+                            <a href="../MCT_Yadnika/MCT_Yadnika/hindi-songs-album.html">
+                                <select id="option" style="font-size: 1rem;">
+                                    <option value="saab"><a> Top Albums
+                                        </a></option>
+                                    <option value="opel">Top Hindi..</option>
+                                    <option value="audi">Top Engli..</option>
+                                    <option value="opel">Top Telug..</option>
+                                    <option value="audi">Top Tamil.</option>
+                                    <option value="audi">Top Bhojp..</option>
+                                </select>
+                            </a>
+                            
+                        </div>
+                        <div class="Blist">
+                            <a href="../top_artist/mct top artist/topArtist.html">
+                                Top Artists
+                            </a>
+                        </div>
+                        <div class="Blist">
+                            <a href="#">
+                                <select id="option" style="font-size: 1rem;">
+                                    <option value="saab"><a>Top Playlists
+                                        </a></option>
+                                    <option value="opel">Wynk Top.</option>
+                                    <option value="audi">Tranding..</option>
+                                    <option value="opel">Top Engl..</option>
+                                    <option value="audi">Tranding R..</option>
+                                    <option value="audi">Top Romanti..</option>
+                                </select>
+                            </a>
+                        </div>
+                        <div class="Blist">
+                            <a href="../podcast/podcast/podcast.html">
+                                Podcast
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="adds" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="400">
+                        <img src="./logo-wynk.png" alt="icon" class="img"
+                            style="width: 1.8rem; border-radius: 50%; margin-left:0.6rem; border-color: white;">
+                            <h2 class="" style=" color: white; font-weight: 700;">Wynk music</h2>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <!--                       upper main section                        -->
+        <main class="B-Up-main1">
+            <div class="B-Crasoul">
+                <div class="B-Cras">
+                    <img src="./img2.webp" alt="img1">
+                    <div class="btn1">
+                        <button >
+                            <i class="fa-solid fa-angle-left" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="B-Cras">
+                    <img src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f19038b680c23dcee89029/BANNER_18748747717183.jpg"
+                        alt="img2">
+                </div>
+                <div class="B-Cras">
+                    <img src="./img4.webp" alt="img3">
+                    <div class="btn2">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!------------------------------- 1st row main-section ------------------------->
+        <main>
+        <section class="B-Songs-sec">
+            <div class="titls">
+                <h2>New Releases</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./song-1.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New Songs Mix</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./BR1-song2.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New Hindi Songs</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./BR1-song3.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New English Songs</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./BR1-song4.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Fragrance</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./BR1-song5.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Speak Now(Taylor's..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./BR1-song6.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color: rgb(255,255,255); font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>FAR FROM OVER</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- -------------------------------2nd row main-section-------------------------- -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Top Charts</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64e870ebff46893ec5b1d98a/COLLECTION_112477447978137.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Weekly Top 20: English</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ec8536d083d537eb216e76/COLLECTION_171424148872240.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Wynk Top 100</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/647f2bbe5a17d82429a5f5ff/COLLECTION_35118269000889.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Romance Top 40</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ec84b4abd367691a41fb68/COLLECTION_32176238627109.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Weekly Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f06c495460977a1a78cd43/COLLECTION_30791146970467.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Social Media Top 20: En..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64e8a1af06bd716e1b6d5792/COLLECTION_44011538241937.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Discovered on Reels</h4>
+                </div>
+
+            </div>
+        </section>
+        <!------------------------------- 3rd row main-section---------------------- -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Indie Music</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f1c812ae577f1db87b4e7e/COLLECTION_74903010007652.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Latest Indie</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ede4b037a949648b142235/COLLECTION_37444801179198.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>INDIE English</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f1cc43b190d06919f344fa/COLLECTION_34475145840784.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New-Age Indipop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ed9bc737a949648b142232/COLLECTION_18776820327667.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>North East Indie</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64e30def8ec8252c79d3d960/COLLECTION_19554780446691.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Beyond Bollywood</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f094a353d7383dac8b086d/COLLECTION_122499437779344.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Hip Hop India</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!------------------------------------ 4rth row main-section ------------------>
+        <section class="B-4Songs-sec">
+            <div class="titls">
+                <h2>Top Indie Artists</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1673244784213-Prateek_Kuhad.jpg"
+                            alt="img">
+                    </div>
+                    <h4>Prateek Kuhad</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5f5775637c0c585d96ebb976.png"
+                            alt="img">
+                    </div>
+                    <h4>The Local Train</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1671027731243-Nikhita_Gandhi.jpg"
+                            alt="img">
+                    </div>
+                    <h4>Nikhita Gandhi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/http://img.wynk.in/unsafe/240x100/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_wyndie/c64ec93b-9bbf-4182-ae34-25ebf99e044b/1689851489807/file-1689851489238-589261288--MG-6215.png"
+                            alt="img">
+                    </div>
+                    <h4>Prateek Gandhi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5ed7758f7c0c58409e2c4317.png"
+                            alt="img">
+                    </div>
+                    <h4>Ritviz</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5f58bf247c0c585d96ebbd0d.png"
+                            alt="img">
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>When Chai Met Toast</h4>
+                </div>
+
+            </div>
+
+        </section>
+        <!-----------------------------------1 5th row main-section ---------------------------------->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Top Podcasts on Wynk</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="./podcast-1.webp" alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Chanakya Niti</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/https://djhonz7dexnot.cloudfront.net/3842a3903bff3cd0f475f178701bbc9879fe6ba6_wynk.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Yakshini | यक्षिणी | Aut..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/https://djhonz7dexnot.cloudfront.net/b099970da6b583e366adba0989d25bfae3524ea1_wynk.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Fake Girlfriend | फेक ग..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/https://st2.epicon.in/featured-images/1620712154-image-xoriginal.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Dil Abhi Bhara Nahi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/https://djhonz7dexnot.cloudfront.net/46c5facb1f66c987c070f9574782d8dbc3aeac35_wynk.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Tera Mujhse Hain Peh..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/https://djhonz7dexnot.cloudfront.net/2bce153040e5a8c5c242ba98441037d46094ba2c_wynk.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Sanjana Ek Anokhi Da..</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!------------------------------------------ 1-unique 6th row main-section --------------------- -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>International Top Hits</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/00602448475596_20220826000727783/1661476851/srch_universalmusic_00602448475596-NGA3B2214021.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/srch_hungama_2280002.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1646980789/srch_universalmusic_00602445655038-USUM72201759.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/music/190295851330/1610078687/srch_wmg_A10302B0003858284M.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1485874711/srch_universalmusic_00602557443325-USUM71700626.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0007615859P.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A00049578396_20221206202438593/1670354809731/resources/A10301A00049578396.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1599607201/srch_universalmusic_00602557056273-QMZSY1600019.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-----------------------------------------2 unique 7th row main-section  -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Hindi Top 50</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20230605142312635/5054197711022/1685976635575/resources/5054197711022.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Heeriye (feat. Arij..</h4>
+                    <p>Jasleen Royal, Arijit Si..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602455783424_20230523000419473/1684804830361/23UMGIM48395_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Zihaal e Miskin</h4>
+                    <p>Javed-mohsin,Vishal M.</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8903431956026_20230814133328/8903431956026/1692001217810/resources/8903431956026.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Chaleya (From "J..</h4>
+                    <p>Anirudh Ravichander -..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/music/1686733018979/Bhediya.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Apna Bana Le..</h4>
+                    <p>Bhediya</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/2023-08/05/05-12/ZMC07159.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Dil Jhoom</h4>
+                    <p>Mithoon, Arijit Singh- G..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_saregama/20230525184022000/8907212007012/1685031313998/resources/8907212007012.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Phir Aur Kya Cha</h4>
+                    <p>Sachin-Jigar, Arijit Sing.</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/20230713165847840/196922516696/1689294034093/resources/196922516696.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Guli Mata</h4>
+                    <p>Saad Lamjarred, Shreya..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_saregama/20230525184019000/8907212007120/1685031312631/resources/8907212007120.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Tere Vaaste (Fr..</h4>
+                    <p>Varun Jain, Sachin-</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--------------------------------------------3 unique 5th row main-section  -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Trending English</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A0005095024D_20230728194216473/1690567205908/resources/A10301A0005095024D.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1597725850/srch_universalmusic_00602435145020-USUG12002842.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602455918185_20230602040404839/1685683206577/23UMGIM60901_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602455918048_20230707050359624/1688710815137/23UMGIM63932_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A00051093481_20230728052014191/1690515653124/resources/A10301A00051093481.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458247367_20230718025355897/1689650404465/23UMGIM77779_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/srch_hungama_2280002.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/20230713210201123/196922462870/1689308432960/resources/196922462870.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-------------------------------------4 unique  9th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Latest Hindi</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8903431959638_20230829144314/8903431959638/1693301421886/resources/8903431959638.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20230825081924855/5054197791055/1692953127217/resources/5054197791055.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_unisysinfo/2023-08/30/07-21/Kanhaiya%20Twitter%20Pe%20Aaja%20(From%20The%20Great%20Indian%20Family).jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458480481_20230828074041165/1693210830952/23UM1IM00346_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/20230829053112035/3617226757273/1693281022815/resources/3617226757273.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8903431959768_20230901065120/8903431959768/1693601730245/resources/8903431959768.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/20230828094029755/3617226355585/1693210213500/resources/3617226355585.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8903431956842_20230827114624/8903431956842/1693118111015/resources/8903431956842.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!----------------------------------5 unique  10th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Latest English</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A00051233870_20230829030701701/1693272327220/resources/A10301A00051233870.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458460377_20230901011530425/1693535140755/23UMGIM99205_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458480276_20230901050559391/1693549211231/23UM1IM00336_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20230829144347188/075679671134/1693327551848/resources/075679671134.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A0005106030J_20230829232316159/1693345223656/resources/A10301A0005106030J.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458469561_20230830151000111/1693412416104/23UMGIM99308_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458407440_20230825050551451/1692944406021/23UMGIM91977_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/A10301A0005121331U_20230825052430451/1692934820162/resources/A10301A0005121331U.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------------6 unique  11th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Trending Hindi</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/2023-08/05/05-12/ZMC07159.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Chal Tere Ishq M..</h4>
+                    <p>Mithoon, Neeti Mohan,..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20230605142312635/5054197711022/1685976635575/resources/5054197711022.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8903431956026_20230814133328/8903431956026/1692001217810/resources/8903431956026.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602458366099_20230808072650566/1691482827796/23UMGIM88254_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/music/1692982215351/ZMC07325.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/2023-08/05/05-12/ZMC07159.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/20230713165847840/196922516696/1689294034093/resources/196922516696.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/music/196922087547/1655904261/srch_ingrooves_196922087547_USA2P2228690.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ------------------------------------12th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Top English Playlists</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64b3fe1e23a1c75be3b5f164/COLLECTION_3188341437211.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Feel The BASS!</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63e0af595eb058293f5e8e9b/COLLECTION_188225557911914.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Ultimate Love Songs</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ede3dbe71d6955350d4b05/COLLECTION_280224080815698.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Feel The Chill</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63455f957ab65d7135e1e61a/COLLECTION_31565149152769.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Mood Boosters</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/644fde79a0935f7db08fa6c8/COLLECTION_23586739794765.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Sad Songs: English</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62dac1cb36dd927158012b9b/COLLECTION_129331878469318.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Rewind The Charts</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ---------------------------------------- 13th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Top Hindi Playlists</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-southeast-1.amazonaws.com/bsy/wynk/wynk_noimg.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Fresh Arrivals- Hindi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64d376224264153622ef3a2e/COLLECTION_36192455777058.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Heart Break Hits</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ef1c85146eae1178637ec1/COLLECTION_1202835423399724.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Bollywood Dance Dha.</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f42e76edc3a46b7f7995b8/COLLECTION_14446412995938.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Sunset Chill</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64c510e906b39209f1e4e9a1/COLLECTION_1538766459982.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Romance Punjabi Style</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64edccd3b37f066a770bcd4a/COLLECTION_80549678573603.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Dance Floor Anthems</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ---------------------------------------  14th row main-section  -->
+
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Discover New Music</h2>
+                
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ede6c2f295161b8ee16886/COLLECTION_539638866660798.jpeg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New in Pop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ccebb21351bc3a447e5e8d/COLLECTION_31338572090947.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New In EDM</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64d084ee8bb03b611ab721f2/COLLECTION_15341477146186.jpeg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New In Hip Hop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64dcabd996f7166ec8ef08b4/COLLECTION_452160202355162.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New In K-Pop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64be23486208c731303b3e72/COLLECTION_296105483437577.jpeg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Latest Love Hits - Eng..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6418207a3991cc4766e7cbc9/COLLECTION_6740514876973.jpeg"
+                            alt="img">
+                    </div>
+                    
+
+                    <h4>New In Rock</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!----------------------------------- 15th row main-section  -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Retro Hits</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Nostalgia</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Rishi-Kapoor-300x300.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Hits of Rishi Kapoor</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/644969415b0a0537f134c3b0/COLLECTION_25759352074584.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>The Beatles Experience</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60294123d3dd182d44dca1c2/COLLECTION_105349708508296.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Hits Of Madhubala</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/King-of-Blues-BBKing-300x300.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>King of Blues: B.B.King</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6038d2356f8fe25a630725de/COLLECTION_3719063906123194.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Hits of Waheeda</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 5----------------------------------16th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Explore Electronic Music</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ccebb21351bc3a447e5e8d/COLLECTION_31338572090947.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New In EDM</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ccecb1c65f8854ec2c7a5d/COLLECTION_170224044905059.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>High on EDM</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6334188c7bdfcb3d97d90b7d/COLLECTION_22626858323428.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>World Of Trance</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/627e2737cf39683098abc7d9/COLLECTION_2446048579907401.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Deep House Mix</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6463188faf546423f442a34e/COLLECTION_13549307138760.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Trap Nation</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/627e235c2cb70b599bf4817a/COLLECTION_3292271099149785.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Psychedelic Mantra</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--------------------- unique  17th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Urban Punjabi Tadka</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/20230512070539_197188915704/1683896530964/resources/197188915704.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20230605142312635/5054197711022/1685976635575/resources/5054197711022.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/20230609030710_197189125010/1686295503327/resources/197189125010.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/music/20220911125941_197186944850/1662916820/srch_orchard_197186944850_QMBZ92299094.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/20230512070539_197188915704/1683896530964/resources/197188915704.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/20230512070539_197188915704/1683896530964/resources/197188915704.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/2023-06/16/09-27/ZMC06948.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/00602455712042_20230425000323564/1682385620365/23UMGIM42050_T1_cvrart.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- unique  18th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>All Time Favourites</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1599607201/srch_universalmusic_00602557056273-QMZSY1600019.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/music/190295851330/1610078687/srch_wmg_A10302B0003858284M.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1594327914/srch_universalmusic_00602567332756-USQ4E1703341.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1480054133/srch_universalmusic_00602557212372-USUG11600977.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/A10301A0004622804Y_20210706191109211/1625592609/srch_sonymusic_A10328E00100230915.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0007917812A.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E00076229396.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1447136930/srch_universalmusic_00602547587459-USUM71516760.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!------------------------------- 7  19th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>K-Pop Essentials</h2>
+                <!-- <button>More</button> -->
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62ee4c2e425f755ce956cd25/COLLECTION_3488092161050851.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>BTS Hits</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64dcabd996f7166ec8ef08b4/COLLECTION_452160202355162.jpg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>New In K-Pop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/632d80f3652fd556ac4c15fc/COLLECTION_160769618604253.jpeg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>K-Pop Essentials</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62aa27861756b1565052b8f8/COLLECTION_6586096544563098.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>K-Pop Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64dc84266d1a14138dcc87c8/COLLECTION_594616519621640.jpeg"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Women Of K-Pop</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60db0b9755f8ac06c0f5d383/COLLECTION_124051322207084.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <!-- <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div> -->
+
+                    <h4>Discover: Kpop</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------- unique  20th row main-section -->
+        <section class="B-many-Songs-sec">
+            <div class="titls">
+                <h2>Latin Top Hits</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1631131130/srch_universalmusic_00602438672776-QZM5U2100095.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Calm Down</h4>
+                    <p>Rema, Selena Gomez</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1498837359/srch_universalmusic_00602557799385-FR22F1701790.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Gasolina</h4>
+                    <p>Daddy Yankee-Barrio F..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1492440119/srch_universalmusic_00602557655575-USUM71703825.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Bones</h4>
+                    <p>Imagine Dragons-Bones</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1598921381/srch_universalmusic_00602435136615-USUM72016220.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran- ÷Deluxe</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1548664946/srch_universalmusic_00602577433320-US2BU1900125.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Believer</h4>
+                    <p>Imagine Dragons-Belie..</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1516153765/srch_universalmusic_00602567388883-US2BU1700200.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>Unstoppable</h4>
+                    <p>Sia - Unstoppable</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1513132050/srch_universalmusic_00602567326182-GBUM71706425.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <h4>People</h4>
+                    <p>Libianca - People</p>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1510922828/srch_universalmusic_00602567173311-USUM71712163.jpg"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: large;"></i>
+                            </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Let Me Love You</h4>
+                    <p>DJ Snake - Encore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-------------------------------------- 8  21th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Evolution of Music</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc8c7f40071f5e04f714d0/COLLECTION_36885735033002.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Evergreen 60s- Hindi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc74840303633b86d22bbe/COLLECTION_204348164465534.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Evergreen 60s - Intern...</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc8cfe0b52c90480d94bca/COLLECTION_1934498161271556.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Golden 70s- Hindi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc74d486a59b46a7c93093/COLLECTION_30753886288868.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Golden 70s - Internati...</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc8da835081035f58eabe6/COLLECTION_1723382193254493.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>80s Rewind- Hindi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60cc753dbcd4ec1bd52fcc69/COLLECTION_28277567479102.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Rewind 80s - Internati...</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 9  22th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Moods</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Sad.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Sad</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Inspiration.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Inspiration</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Morning.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Morning</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Meditation.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Meditation</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Sufi.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Sufi</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/RoadTrip.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Road Trip</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!----------------------- 10  23th row main-section -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Regional Top 20</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f028c6e468ba2d3ce7eb45/COLLECTION_223911851519257.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Telugu Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64f037ce5a59bd6d67723a67/COLLECTION_184706185346889.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Tamil Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/641ab6484529a30d8107827e/COLLECTION_2125963522038.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Haryanvi Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64eee693c068c3096b572644/COLLECTION_16541245688340.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Kannada Top 20</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/647eea6d02b7b2073e0c9853/COLLECTION_20572655755458.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Weekly Top 20 - Bhojp..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64eee52fab57612c9fe7b17d/COLLECTION_63460970521648.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Malayalam Top 20</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 11 -->
+        <section class="B-TSongs-sec">
+            <div class="titls">
+                <h2>Workout English Mix</h2>
+                <button>More</button>
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62cc7597d717440ef61688f1/COLLECTION_351078877702504.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>One More Rep: Work..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62cc77c6a9e3d666a167b97d/COLLECTION_197415689810286.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Ultimate EDM Workou..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62cc7c1153fdbf0f3c6ba4b9/COLLECTION_490668997636243.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Rock N Run</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/5f71d3ed2841b8530176454a/COLLECTION_456299868870987.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Run To Burn</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62cc772c76bd714ca442bc32/COLLECTION_665851177827822.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <h4>Pure Cardio</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62cc783950f1df2aa38921a4/COLLECTION_2910468015393989.png"
+                            alt="img">
+                        <button>
+                            <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                        </button>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <i class="fa-solid fa-angle-right" style="color:#ffffff; font-size: larger;"></i>
+                        </button>
+                    </div>
+
+                    <h4>Power Pop Workou..</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 1unique-half -->
+        <section class="B-small-Songs-sec">
+            <div class="titls">
+                <h2>Workout English Mix</h2>
+                <!-- <button>More</button> -->
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/634a8d59f13b8219a2cf690e/COLLECTION_5172409690808.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Weekend Workout</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64d0d7ace8bedc1c40c5b765/COLLECTION_10698629498512.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Bollywood Running Mix</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63ec886a67b44830cdc91685/COLLECTION_8011025447819.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Bollywood Rock - Wor..</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/634ce67009c4320cae6c2a2a/COLLECTION_11730197203065.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Bhangra Style Workout</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/634a8d291d78ec38ca2ae041/COLLECTION_25876010406841.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Bollywood Zumba</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 2unique-half -->
+        <section class="B-small-Songs-sec">
+            <div class="titls">
+                <h2>Your Library</h2>
+                <!-- <button>More</button> -->
+            </div>
+            <div class="B-vdos">
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/ziegel/liked-songs.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Liked Songs</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/601b98e1d7d9cc1e85aac55c/COLLECTION_1318561135712978.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Most Played Songs 🔥</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/ziegel/downloads.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Downloads</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/ziegel/recently-played.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Recently Played</h4>
+                </div>
+
+                <div class="thumbnails">
+                    <div class="row-1-img">
+                        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/ziegel/your-playlists.png"
+                            alt="img">
+                            <button>
+                                <i class="fa-solid fa-play" style="color: rgb(194,17,18); font-size: larger;"></i>
+                            </button>
+                    </div>
+                    <h4>Your Playlists</h4>
+                </div>
+
+            </div>
+
+        </section>
+        </main>
+
+        <footer>
+            <div class="B-About-wynks">
+                <div>
+                    <h3>About Wynk Music</h3>
+                    <p>Wynk Music is a complete package that allows you free online music streaming, set caller tunes,
+                        listen to podcasts, download MP3 music offline, and much more! Since music is essentially the
+                        only thing that can truly understand a person, we consistently offer our audience the ideal
+                        blend of MP3 Songs by their favourite artists and of versatile genres.</p>
+                </div>
+                <div>
+                    <h3> Play & Download FREE MP3 Songs in all languages</h3>
+                    <p>One of the unique features of Wynk Music is that it offers users the ability to stream music in
+                        multiple regional languages, including Hindi, Punjabi, Bengali, Tamil, Telugu, and more. Also,
+                        users of the app can download MP3 songs for offline listening. This online music platform
+                        provides access to additional features such as offline listening, high-quality audio, and
+                        exclusive content.</p>
+                </div>
+                <div>
+                    <h3>Wynk Music-One Stop Destination for Offline & Online Music!</h3>
+                    <p>Wynk Music offers users access to a vast library of music, including Indian and international
+                        tracks across various genres like Bollywood, Punjabi, pop, rock, and more. We have made online
+                        music streaming simple, fun, and all about you! So, what’s the wait for, discover and listen to
+                        millions of songs, playlists, podcasts & download MP3 songs on any device including mobile for
+                        free exclusively on Wynk Music. Keep Wynking!</p>
+                </div>
+
+            </div>
+        </footer>
+        <!-- yaadnika footer parts -->
+        <div class="md:w-[86%] mx-auto sm:w-full md:px-0 px-4 mt-5 dark:text-white">
+
+            <!-- Banner -->
+            <div style="background-color: #21252D;" class="mb-10 rounded flex justify-between p-6 items-center">
+              <div class="flex items-center gap-3">
+                <div> 
+                  <img class="rounded-full w-14 max-[1024px]:hidden" src="https://asset.brandfetch.io/idhXjxLF9g/idxvsamq5q.png?updated=1674455441748">
+                </div>
+                <div class="text-white">
+                  <h1 class="font-semibold text-xl cursor-pointer">Best way to Listen to Music!</h1>
+                  <p class="text-sm font-normal cursor-pointer">Don’t forget to install Wynk Music on your mobile phones</p>
+                </div>
+              </div>
+              <div class="flex gap-3 max-[768px]:hidden">
+                <img src="https://wynk.in/_next/static/media/play-store.28ce99c9.png">
+                <img src="https://wynk.in/_next/static/media/apple-store.fd317c9d.png">
+              </div>
+            </div>
+    
+             <!-- Footer Grid -->
+            <div class="grid grid-cols-4 gap-4 max-[768px]:hidden">
+                <div>
+                    <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                        <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                        <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                        <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                        <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                        <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                        <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                        <span class="hover:text-white cursor-pointer">Over You  |</span>
+                        <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                        <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                        <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                        <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                        <span class="hover:text-white cursor-pointer">Naach</span>     
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                        <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                        <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                            <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                            <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                            <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                            <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                            <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                            <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                            <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                            <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                            <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                            <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                            <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                            <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                        </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                        <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                        <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                        <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                        <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                        <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                        <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                        <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                        <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                        <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                        <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                        <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                        <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                        <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                        <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                            <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                            <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                            <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                            <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                            <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                            <span class="hover:text-white cursor-pointer">Praktan |</span>
+                            <span class="hover:text-white cursor-pointer">No Name  |</span>
+                            <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                            <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                            <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                            <span class="hover:text-white cursor-pointer">You & I</span>        
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                            <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                            <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                            <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                            <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                            <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                            <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                            <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                            <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                            <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                            <span class="hover:text-white cursor-pointer">Hawayein</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                            <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                            <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                            <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                            <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                            <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:hidden max-[768px]:block">
+                <div>
+                    <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                        <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                        <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                        <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                        <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                        <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                        <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                        <span class="hover:text-white cursor-pointer">Over You  |</span>
+                        <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                        <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                        <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                        <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                        <span class="hover:text-white cursor-pointer">Naach</span>     
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                        <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                        <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                        <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                            <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                            <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                            <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                            <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                            <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                            <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                            <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                            <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                            <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                            <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                            <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                            <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                        </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                        <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                        <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                        <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                        <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                        <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                        <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                        <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                        <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                        <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                        <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                        <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                        <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                        <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                        <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                            <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                            <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                            <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                            <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                            <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                            <span class="hover:text-white cursor-pointer">Praktan |</span>
+                            <span class="hover:text-white cursor-pointer">No Name  |</span>
+                            <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                            <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                            <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                            <span class="hover:text-white cursor-pointer">You & I</span>        
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                            <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                            <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                            <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                            <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                            <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                            <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                            <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                            <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                            <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                            <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                            <span class="hover:text-white cursor-pointer">Hawayein</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                            <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                            <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                            <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                            <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                            <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                            <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                            <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                            <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                        <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                            <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                            <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Footer Section -->
+            <hr class="border-1 border-gray-700">
+    
+            <div class="md:flex max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-center justify-between flex-wrap items-center max-[768px]:gap-2 py-5 px-3">
+                <ul class="text-white text-sm font-medium flex flex-wrap justify-center items-center gap-3">
+                    <li>ABOUT US </li>
+                    <li><span class="text-gray-700">|</span></li>
+                    <li>PRIVACY POLICY</li>
+                    <li><span class="text-gray-700">|</span></li>
+                    <li>TERMS OF USE</li>
+                    <li><span class="text-gray-700">|</span></li>
+                    <li>HELLOTUNES</li>
+                    <!-- </div> -->
+                </ul>
+                <ul class="text-white gap-3 font-semibold flex flex-row justify-center items-center">
+                    <li><i class="fa-brands fa-facebook p-3 border rounded-full"></i></li>
+                    <li><i class="fa-brands fa-twitter p-3 border rounded-full"></i></li>
+                    <li><i class="fa-brands fa-instagram p-3 border rounded-full"></i></li>
+                    <li><i class="fa-brands fa-youtube p-3 border rounded-full"></i></li>
+                </ul>
+            </div>
+            
+            <hr class="border-1 border-gray-700">
+    
+            <!-- Copy Right section -->
+            <div class="flex justify-between flex-wrap gap-3 max-[768px]:justify-center py-8">
+                <p class="w-8/12 text-gray-500 text-xs font-normal max-[768px]:text-center">Wynk Music is the one-stop music app for the latest to the greatest songs that you love. Play your favourite music online for free or download mp3. 
+                Enjoy from over 22 Million Hindi, English, Bollywood, Regional, Latest, Old songs and more.</p>
+                <p class="text-xs text-gray-500">2023 © All rights reserved | Airtel Digital Limited</p>
+            </div>
+    
+          </div>
+        
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
