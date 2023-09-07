@@ -102,9 +102,16 @@ Same footer for all:-
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, please feel free to contact us:
+If you have any questions or suggestions regarding this project, don't hesitate to reach out to us:
 
-- Wynk Music Team (bhumikakri2002@gmail.com, amitkumarsmpt@gmail.com, ankit6aprsingh@gmail.com, yadnika10@gmail.com)
+*Wynk Music Team*
+
+- Bhumika Kumari: [bhumikakri2002@gmail.com](mailto:bhumikakri2002@gmail.com)
+- Amit Kumar: [amitkumarsmpt@gmail.com](mailto:amitkumarsmpt@gmail.com)
+- Ankit Singh: [ankit6aprsingh@gmail.com](mailto:ankit6aprsingh@gmail.com)
+- Yadnika Sahane: [yadnika10@gmail.com](mailto:yadnika10@gmail.com)
+
+We're here to assist you and appreciate your feedback!
 
 
 Happy listening! 🎶🎧
