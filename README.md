@@ -76,19 +76,23 @@ Same footer for all:-
 ![Screenshot (285)](https://github.com/Bhumikakri/Wynk_Music/assets/128302166/06fb89a2-6bb0-4405-9cac-08ca8ce7f766)
 ## Contributors
 
-- [Bhumika Kumari]:-
-- ([https://bhumikakri.github.io/Wynk_Music/Home/index.html] with navbar)
-- [Yadnika Sahane]:-(
-    [https://bhumikakri.github.io/Wynk_Music/MCT_Yadnika/MCT_Yadnika/party-songs.html]
-   [https://bhumikakri.github.io/Wynk_Music/MCT_Yadnika/MCT_Yadnika/hindi-songs-album.html] ) With footer
-- [Amit Kumar]:-
-    ([https://bhumikakri.github.io/Wynk_Music/podcast/podcast/podcast.html],
-    [https://bhumikakri.github.io/Wynk_Music/top_artist/mct%20top%20artist/topArtist.html])
-- [Ankit Singh]:-
-    ([https://bhumikakri.github.io/Wynk_Music/Ankit/oldSong.html],
-    [https://bhumikakri.github.io/Wynk_Music/Ankit/newSong.html])
- All:-
-(https://bhumikakri.github.io/Wynk_Music/trending%20(1).html)
+- *Bhumika Kumari*
+  - [Portfolio](https://bhumikakri.github.io/Wynk_Music/Home/index.html) (with navbar)
+  
+- *Yadnika Sahane*
+  - [Party Songs](https://bhumikakri.github.io/Wynk_Music/MCT_Yadnika/MCT_Yadnika/party-songs.html)
+  - [Hindi Songs Album](https://bhumikakri.github.io/Wynk_Music/MCT_Yadnika/MCT_Yadnika/hindi-songs-album.html) (with footer)
+  
+- *Amit Kumar*
+  - [Podcast](https://bhumikakri.github.io/Wynk_Music/podcast/podcast/podcast.html)
+  - [Top Artist](https://bhumikakri.github.io/Wynk_Music/top_artist/mct%20top%20artist/topArtist.html)
+  
+- *Ankit Singh*
+  - [Old Songs](https://bhumikakri.github.io/Wynk_Music/Ankit/oldSong.html)
+  - [New Songs](https://bhumikakri.github.io/Wynk_Music/Ankit/newSong.html)
+  
+- *All Contributors*
+  - [Trending](https://bhumikakri.github.io/Wynk_Music/trending%20(1).html)
 
 ## Acknowledgments
 
