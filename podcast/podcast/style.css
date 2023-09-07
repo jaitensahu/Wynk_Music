@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #0C0F12;
+}
+main{
+    height: auto;
+    width: 100vw;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-color: #0C0F12;
+   
+}
+/*navbar start here*/
+.Bnavbar {
+    width: 100%;
+    padding: 1px;
+    height: fit-content;
+    background-color: #0C0F12;
+    /* z-index: 30; */
+    /* position: relative;
+    top: 0; */
+    /* border: solid 2px red; */
+    /* background-color: rgba(11, 245, 42, 0.925); */
+}
+
+img, video {
+    max-width: none;
+    /* height: auto; */
+}
+
+.B-header {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.925); */
+}
+
+.B-header .Bupper-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.6rem;
+    padding-left: 6rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* background-image: linear-gradient(180deg,#1c1c1c,#1c1b1b 42.69%,#161616); */
+    background-color: rgb(27, 26, 26);
+}
+.B-header .Bupper-nav .Blogo {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+
+.login:hover {
+    cursor: pointer;
+}
+
+.B-header .Bupper-nav .B-Manage:hover,
+.login div:hover {
+    opacity: 0.5;
+}
+
+.B-header .Bupper-nav .Blogo .img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.B-header .Bupper-nav .Bnav-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .input {
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 2rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+}
+
+.B-header .Bupper-nav .Bnav-content .input input {
+    border: none;
+    padding-bottom: 0.6;
+    padding: 0.7rem;
+    padding-left: 0;
+    padding-right: 2.7rem;
+    margin-left: 0;
+    color: rgb(135, 135, 147);
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(37, 37, 37);
+    text-align: start;
+}
+
+.B-header .Bupper-nav .Bnav-content .B-Manage {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-right: solid 2px rgb(73, 73, 73);
+    padding-right: 1rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .B-Manage .rupee {
+    border: solid 2px rgb(233, 233, 233); 
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.B-header .Bupper-nav .Bnav-content .login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(253, 253, 253);
+    ;
+}
+.B-header .Bupper-nav .Bnav-content .B-Manage h4 {
+    color: rgb(253, 253, 253);
+    font-size: 1.1rem;
+}
+.B-header .Blower-nav {
+    width: 100%;
+    background-color: rgb(12, 15, 18);
+    /* box-shadow: 10px 10px 5px rgb(8, 8, 8); */
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    /* border: solid 2px red; */
+}
+
+.B-header .Blower-nav .Bmenu {
+    display: flex;
+     padding: 1.5rem;
+     padding-right: 0;
+    /* gap: 1.5rem; */
+    gap: 25.50px;
+    align-items: center;
+    font-weight: 300;
+    width: 80%;
+    
+    /* margin-left: 1.5rem; */
+}
+
+.B-header .Blower-nav .Bmenu a {
+    color: rgb(163, 167, 174);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+.B-header .Blower-nav .Bmenu select {
+    border: none;
+    background-color: rgb(12, 15, 18);
+    color: rgb(163, 167, 174);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.B-header .Blower-nav .Bmenu select>option:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu select:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu a:hover {
+    text-decoration: underline;
+}
+
+.B-header .Blower-nav .Bmenu .Bliste a {
+    color: white;
+    font-weight: 700;
+}
+
+.B-header .Blower-nav .adds {
+    width: 10rem;
+    height: 2.3rem;
+    background-color: blue;
+    border-radius: 0.3rem 0 0 0.3rem;
+    display: flex;
+    align-items: center;
+    border: solid 2px green;
+}
+
+/*navbar end here*/
+section{
+    width: 100%;
+    height: 317px;
+    margin-top: 32px;
+    
+}
+.am-podcast{
+    width: 100%;
+    height: 10rem;
+
+}
+.am-heading{
+    width: 100%;
+    height: 2rem;
+
+}
+.am-container{
+    margin-top: 10px;
+    width: 100%;
+    height: 7rem;
+    gap: 20px;
+    display: flex;
+    
+}
+.am-heading h1{
+    font-family: Roboto,sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.am-cart{
+    position: relative;
+    height: 85%;
+    width: 17.9%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+.am-cart h1{
+    justify-content: center;
+    font-family: Roboto,sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    
+    margin-top: -25%;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 10;
+}
+.am-cart .play-icon .circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+
+}
+.am-cart .play-icon{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 35%;
+    opacity: 0;
+    transition: all .4s;
+}
+.am-cart:hover .play-icon{
+    opacity: 1;
+}
+.am-cart:hover .am-image{
+    filter:opacity(20%);
+}
+.am-cart .play-icon .circle .triangle{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid rgb(233, 14, 109);
+    margin-left: 10px;
+    transform: rotate(90deg);
+    margin-top: 17px;
+    margin-left: 15px;
+    position: absolute;
+}
+.am-cart .am-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.am-wynk10 .am-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.am-wynk10 .am-heading h1{
+    font-family: Roboto,sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+.am-wynk10 .am-heading button{
+    font-family: Roboto,sans-serif;
+    color: rgb(253, 1, 1);
+    font-size: .9rem;
+    height: 20px;
+    width: 56px;
+    border-radius: 10px;
+    background: none;
+    border: hidden;
+    text-align: center;
+}
+.am-wynk10 .am-heading button:hover{
+    background-color:rgb(253, 1, 1);
+    color: white;
+}
+.am-wynk10 .am-container{
+    width: 100%;
+    height: 87%;
+
+    gap: 20px;
+    display: flex;
+    
+}
+.am-wynk10 .am-container .am-cart{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.am-wynk10 .am-container .am-cart .am-image{
+    width: 100%;
+    height: 197px;
+}
+.am-wynk10 .am-container .am-cart .am-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.am-wynk10 .am-container .am-cart .first{
+    width: 100%;
+    height: 32px;
+    padding-top: 8px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    color: #F7F5F5;
+}
+
+.am-wynk10 .am-container .am-cart .second{
+    width: 100%;
+    height: 12px;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    color: #818C94;
+}
+
+
+/* Media query start here*/
+
+@media only screen and (max-width: 1480px) {
+    section {
+     height: auto;
+    }
+    .am-wynk10 .am-container{
+        
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        align-items: center;
+    }
+    .am-wynk10 .am-container .am-cart{
+        flex-shrink: 0;
+        flex-grow: 0;
+        width: 221px;
+        height: 245px; 
+        
+    }
+    .am-podcast{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .am-podcast .am-container{
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+       
+        align-items: center;
+    }
+    .am-podcast .am-container .am-cart{
+        flex-shrink: 0;
+        flex-grow: 0;
+        width: 240px;
+        height: 100px; 
+        
+    }
+  }
+  @media (max-width:1024px) {
+
+    
+
+    .Bnavbar .B-header .Blower-nav .Bmenu {
+        gap: 0.6rem;
+    }
+
+    .B-header .Bupper-nav .login div {
+        display: none;
+    }
+
+}
+
+@media (max-width:975px) {
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+    }
+    
+    .Bnavbar .B-header .Blower-nav {
+        /* width: 100%; */
+        background-color: rgb(12, 15, 18);
+        /* box-shadow: 10px 10px 5px rgb(8, 8, 8); */
+        /* padding-left: 5rem; */
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: solid 2px red; */
+        overflow-x: scroll;
+    }
+    .Bnavbar .B-header .Blower-nav::-webkit-scrollbar {
+        width: 0.5em;
+        background: transparent;
+      }
+    .Bnavbar .B-header .Blower-nav::-webkit-scrollbar-thumb {
+        background:transparent;
+      }
+    .Bnavbar .B-header .Blower-nav .adds{
+        display: none;
+    }
+   
+    
+    
+    
+    .B-header .Blower-nav {
+        padding: 0;
+        width: 100%;
+    }
+    /* .B-small-Songs-sec .titls button {
+       display: none;
+    } */
+}
+
+@media (max-width:787px) {
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .input input {
+        display: none;
+    }
+    .B-header .Bupper-nav .login div {
+        display: none;
+    }
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .input {
+        border: none;
+    }
+
+    
+    .Bnavbar .B-header .Blower-nav{
+        font-size: 0.5rem;
+    }
+    
+    
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .B-Up-main1 .B-Crasoul .B-Cras .btn1 {
+        display: none;
+      }
+    .B-Up-main1 .B-Crasoul .B-Cras .btn2{
+        display: none;
+       }
+    .Bnavbar .B-header .Bupper-nav .Bnav-content .B-Manage {
+        display: none;
+      }
+    .B-header .Bupper-nav{
+        padding: 0;
+       }
+
+}
