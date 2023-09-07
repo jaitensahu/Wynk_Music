@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>top-artist</title>
+    <link rel = "icon" href = 
+"https://wynk.in/_next/static/media/icon-384x384.522e458f.png" 
+        type = "image/x-icon" style="border-radius: 50px;">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="Bnavbar">
+
+      <!-- navbar -->
+      <nav class="B-header">
+          <!-- 1st navbar -->
+          <div class="Bupper-nav">
+              <div class="Blogo">
+                  <a href="#"><img src="./wynk.png" alt="icon" class="img"></a>
+                  <h3>Wynk Music
+                  </h3>
+              </div>
+              <div class="Bnav-content">
+                  <div class="input">
+                      <i class="fa-solid fa-magnifying-glass "
+                          style="color: rgb(176,176,184); border-left: 2px; padding-left: 1rem;margin-right: 0;padding-right: 1rem; font-size: larger; background-color:transparent"></i>
+                      <input type="search" placeholder="Search Songs">
+                  </div>
+                  <div class="B-Manage">
+                      <div class="rupee">
+                          <i class="fa-solid fa-indian-rupee-sign"
+                              style="color: rgb(233,233,233); border-bottom:solid 2px #9e9d9d; border-radius: 10%; font-size:xx-small;"></i>
+                      </div>
+
+                      <h4>Manage Subscription</h4>
+                  </div>
+                  <div class="login">
+                      <div>
+                          <i class="fa-regular fa-user"
+                              style="color: rgb(253,253,253); padding-right: 0.5rem;"></i>
+                          Login
+                      </div>
+                      <i class="fa-solid fa-bars icon"
+                          style="color: rgb(255,255,255); font-size: 1.5rem; margin-left: 0.7rem;"></i>
+                  </div>
+              </div>
+
+          </div>
+          <!-- 2nd navbar -->
+          <div class="Blower-nav">
+              <div class="Bmenu">
+                  <div class="Blist">
+                      <a href="../../Home/index.html" >
+                          All
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="#">
+                          Trending Now
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="../../Ankit/oldSong.html">
+                          Old Songs
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="../../Ankit/newSong.html">
+                          New Songs
+                      </a>
+                  </div>
+                  <div class="Blistt">
+                      <a href="../../MCT_Yadnika/MCT_Yadnika/party-songs.html">
+
+
+                          <select id="option">
+                              <option value="saab"><a> Moods & Genre
+                                  </a></option>
+                              <option value="opel">Party Songs</option>
+                              <option value="audi">Dance Songs</option>
+                              <option value="opel">Bollywood Songs</option>
+                              <option value="audi">Romantic Songs</option>
+                              <option value="audi">90's Hits</option>
+                              <option value="audi">Ghazals</option>
+                              <option value="audi">Bhakti Songs</option>
+                          </select>
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="../../MCT_Yadnika/MCT_Yadnika/hindi-songs-album.html">
+                          <select id="option">
+                              <option value="saab"><a> Top Albums
+                                  </a></option>
+                              <option value="opel">Top Hindi..</option>
+                              <option value="audi">Top Engli..</option>
+                              <option value="opel">Top Telug..</option>
+                              <option value="audi">Top Tamil.</option>
+                              <option value="audi">Top Bhojp..</option>
+                          </select>
+                      </a>
+                      
+                  </div>
+                  <div class="Bliste">
+                      <a href="#">
+                          Top Artists
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="#">
+                          <select id="option">
+                              <option value="saab"><a>Top Playlists
+                                  </a></option>
+                              <option value="opel">Wynk Top.</option>
+                              <option value="audi">Tranding..</option>
+                              <option value="opel">Top Engl..</option>
+                              <option value="audi">Tranding R..</option>
+                              <option value="audi">Top Romanti..</option>
+                          </select>
+                      </a>
+                  </div>
+                  <div class="Blist">
+                      <a href="../../podcast/podcast/podcast.html" class="Bhome">
+                          Podcast
+                      </a>
+                  </div>
+
+              </div>
+              <div class="adds" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                  <img src="./wynk.png" alt="icon" class="img"
+                      style="width: 1.8rem; border-radius: 50%; margin-left:0.6rem; border-color: white;">
+                      <h2 class="" style=" color: white; font-weight: 700;">Wynk music</h2>
+              </div>
+          </div>
+
+      </nav>
+     </div>
+    <main>
+       <!-- navbar-with top-main -->
+
+
+
+      <!--container start here-->
+      <div class="am-heading">
+        <h1>Top Artists</h1>
+      </div>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./arijit.webp" alt="" />
+            </div>
+            <div class="first">Arijit All The Way</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./guru.webp" alt="" />
+            </div>
+            <div class="first">Artist In Spotlight: Guru R...</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./justin.webp" alt="" />
+            </div>
+            <div class="first">Justin Bieber Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./eminem.webp" alt="" />
+            </div>
+            <div class="first">Eminem Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./ar.webp" alt="" />
+            </div>
+            <div class="first">Music Maestro A R Rahman</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./dj.webp" alt="" />
+            </div>
+            <div class="first">DJ Snake Tunes</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./web.webp" alt="" />
+            </div>
+            <div class="first">Hits from Web Series</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./yo yo.webp" alt="" />
+            </div>
+            <div class="first">YO YO Honey Singh</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./arman.webp" alt="" />
+            </div>
+            <div class="first">Armaan Malik: All Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./sonu.webp" alt="" />
+            </div>
+            <div class="first">Hits of Sonu Nigam</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./kaka.webp" alt="" />
+            </div>
+            <div class="first">Best Of Kaka</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./ed.webp" alt="" />
+            </div>
+            <div class="first">Ed Sheeran Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./mankirt.webp" alt="" />
+            </div>
+            <div class="first">Hits of Mankirt Aulakh</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./jassi.webp" alt="" />
+            </div>
+            <div class="first">Hits Of Jassie Gill</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./shreya.webp" alt="" />
+            </div>
+            <div class="first">Shreya Ghoshal Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./harrdy.webp" alt="" />
+            </div>
+            <div class="first">Hits of Harrdy Sandhu</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./amit.webp" alt="" />
+            </div>
+            <div class="first">Best Of Amit Trivedi</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./badshah.webp" alt="" />
+            </div>
+            <div class="first">Best Of Badshah</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./lata.webp" alt="" />
+            </div>
+            <div class="first">Lata Mangeshkar</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./jubin.webp" alt="" />
+            </div>
+            <div class="first">Artist in Spotlight - Jubin...</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./garry.webp" alt="" />
+            </div>
+            <div class="first">Best of Garry Sandhu</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./shidhu.webp" alt="" />
+            </div>
+            <div class="first">Best Of Sidhu Moose Wala</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./mohit.webp" alt="" />
+            </div>
+            <div class="first">Hits of Mohit Chauhan</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./udit.webp" alt="" />
+            </div>
+            <div class="first">Best of Udit Narayan</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./arijit.webp" alt="" />
+            </div>
+            <div class="first">Arijit All The Way</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./guru.webp" alt="" />
+            </div>
+            <div class="first">Artist In Spotlight: Guru R...</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./justin.webp" alt="" />
+            </div>
+            <div class="first">Justin Bieber Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./eminem.webp" alt="" />
+            </div>
+            <div class="first">Eminem Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./ar.webp" alt="" />
+            </div>
+            <div class="first">Music Maestro A R Rahman</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./dj.webp" alt="" />
+            </div>
+            <div class="first">DJ Snake Tunes</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./web.webp" alt="" />
+            </div>
+            <div class="first">Hits from Web Series</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./yo yo.webp" alt="" />
+            </div>
+            <div class="first">YO YO Honey Singh</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./arman.webp" alt="" />
+            </div>
+            <div class="first">Armaan Malik: All Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./sonu.webp" alt="" />
+            </div>
+            <div class="first">Hits of Sonu Nigam</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./kaka.webp" alt="" />
+            </div>
+            <div class="first">Best Of Kaka</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./ed.webp" alt="" />
+            </div>
+            <div class="first">Ed Sheeran Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./mankirt.webp" alt="" />
+            </div>
+            <div class="first">Hits of Mankirt Aulakh</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./jassi.webp" alt="" />
+            </div>
+            <div class="first">Hits Of Jassie Gill</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./shreya.webp" alt="" />
+            </div>
+            <div class="first">Shreya Ghoshal Hits</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./harrdy.webp" alt="" />
+            </div>
+            <div class="first">Hits of Harrdy Sandhu</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./amit.webp" alt="" />
+            </div>
+            <div class="first">Best Of Amit Trivedi</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./badshah.webp" alt="" />
+            </div>
+            <div class="first">Best Of Badshah</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./lata.webp" alt="" />
+            </div>
+            <div class="first">Lata Mangeshkar</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./jubin.webp" alt="" />
+            </div>
+            <div class="first">Artist in Spotlight - Jubin...</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./garry.webp" alt="" />
+            </div>
+            <div class="first">Best of Garry Sandhu</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./shidhu.webp" alt="" />
+            </div>
+            <div class="first">Best Of Sidhu Moose Wala</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./mohit.webp" alt="" />
+            </div>
+            <div class="first">Hits of Mohit Chauhan</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./udit.webp" alt="" />
+            </div>
+            <div class="first">Best of Udit Narayan</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="am-top_artist">
+        <div class="am-container">
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./arijit.webp" alt="" />
+            </div>
+            <div class="first">Arijit All The Way</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="am-cart">
+            <div class="am-image">
+              <img src="./guru.webp" alt="" />
+            </div>
+            <div class="first">Artist In Spotlight: Guru R...</div>
+
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+        </div>
+      </section>
+
+
+      <!--container end here-->
+
+
+
+       <!--yadnika part start here-->
+       <!-- Banner -->
+       <div style="background-color: #21252D;" class="mb-10 mt-8 rounded flex justify-between p-6 items-center">
+        <div class="flex items-center gap-3">
+          <div> 
+            <img class="rounded-full w-14 max-[1024px]:hidden" src="https://asset.brandfetch.io/idhXjxLF9g/idxvsamq5q.png?updated=1674455441748">
+          </div>
+          <div class="text-white">
+            <h1 class="font-semibold text-xl cursor-pointer">Best way to Listen to Music!</h1>
+            <p class="text-sm font-normal cursor-pointer">Don’t forget to install Wynk Music on your mobile phones</p>
+          </div>
+        </div>
+        <div class="flex gap-3 max-[768px]:hidden">
+          <img src="https://wynk.in/_next/static/media/play-store.28ce99c9.png">
+          <img src="https://wynk.in/_next/static/media/apple-store.fd317c9d.png">
+        </div>
+        </div>
+
+       <div class="md:w-[100%] mx-auto sm:w-full md:px-0 px-4 mt-5 dark:text-white">
+        <div class="grid grid-cols-4 gap-4 max-[768px]:hidden">
+            <div>
+                <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                    <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                    <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                    <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                    <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                    <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                    <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                    <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                    <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                    <span class="hover:text-white cursor-pointer">Over You  |</span>
+                    <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                    <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                    <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                    <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                    <span class="hover:text-white cursor-pointer">Naach</span>     
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                    <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                    <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                    <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                    <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                        <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                        <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                        <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                        <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                        <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                        <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                        <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                        <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                        <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                        <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                    </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                    <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                    <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                    <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                    <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                    <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                    <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                    <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                    <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                    <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                    <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                    <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                    <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                    <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                    <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                        <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                        <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                        <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                        <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                        <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                        <span class="hover:text-white cursor-pointer">Praktan |</span>
+                        <span class="hover:text-white cursor-pointer">No Name  |</span>
+                        <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                        <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                        <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                        <span class="hover:text-white cursor-pointer">You & I</span>        
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                        <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                        <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                        <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                        <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                        <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                        <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                        <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                        <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                        <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                        <span class="hover:text-white cursor-pointer">Hawayein</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                        <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                        <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                        <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                        <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                        <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                </div>
+            </div>
+        </div>
+        <div class="md:hidden max-[768px]:block">
+            <div>
+                <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                    <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                    <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                    <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                    <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                    <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                    <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                    <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                    <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                    <span class="hover:text-white cursor-pointer">Over You  |</span>
+                    <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                    <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                    <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                    <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                    <span class="hover:text-white cursor-pointer">Naach</span>     
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                    <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                    <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                    <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                    <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                    <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                    <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                        <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                        <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                        <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                        <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                        <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                        <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                        <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                        <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                        <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                        <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                        <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                    </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                    <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                    <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                    <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                    <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                    <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                    <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                    <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                    <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                    <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                    <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                    <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                    <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                    <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                    <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                    <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                        <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                        <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                        <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                        <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                        <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                        <span class="hover:text-white cursor-pointer">Praktan |</span>
+                        <span class="hover:text-white cursor-pointer">No Name  |</span>
+                        <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                        <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                        <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                        <span class="hover:text-white cursor-pointer">You & I</span>        
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                        <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                        <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                        <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                        <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                        <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                        <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                        <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                        <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                        <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                        <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                        <span class="hover:text-white cursor-pointer">Hawayein</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                        <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                        <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                        <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                        <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                        <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                        <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                        <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                        <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                    <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                        <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                        <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="hr"></div>
+
+
+       <!--yadnika part start here-->
+
+
+       <!--footer start here-->
+       <!-- Footer Section -->
+       <hr class="border-1 border-gray-700">
+
+       <div class="md:flex max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-center justify-between flex-wrap items-center max-[768px]:gap-2 py-5 px-3">
+           <ul class="text-white text-sm font-medium flex flex-wrap justify-center items-center gap-3">
+               <li>ABOUT US </li>
+               <li><span class="text-gray-700">|</span></li>
+               <li>PRIVACY POLICY</li>
+               <li><span class="text-gray-700">|</span></li>
+               <li>TERMS OF USE</li>
+               <li><span class="text-gray-700">|</span></li>
+               <li>HELLOTUNES</li>
+               <!-- </div> -->
+           </ul>
+           <ul class="text-white gap-3 font-semibold flex flex-row justify-center items-center">
+               <li><i class="fa-brands fa-facebook p-3 border rounded-full"></i></li>
+               <li><i class="fa-brands fa-twitter p-3 border rounded-full"></i></li>
+               <li><i class="fa-brands fa-instagram p-3 border rounded-full"></i></li>
+               <li><i class="fa-brands fa-youtube p-3 border rounded-full"></i></li>
+           </ul>
+       </div>
+       
+       <hr class="border-1 border-gray-700">
+
+       <!-- Copy Right section -->
+       <div class="flex justify-between flex-wrap gap-3 max-[768px]:justify-center py-8">
+           <p class="w-8/12 text-gray-500 text-xs font-normal max-[768px]:text-center">Wynk Music is the one-stop music app for the latest to the greatest songs that you love. Play your favourite music online for free or download mp3. 
+           Enjoy from over 22 Million Hindi, English, Bollywood, Regional, Latest, Old songs and more.</p>
+           <p class="text-xs text-gray-500">2023 © All rights reserved | Airtel Digital Limited</p>
+          </div>
+       <!--footer end here-->
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
