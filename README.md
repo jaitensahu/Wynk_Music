@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    bash
-   git clone https://bhumikakri.github.io/Wynk_Music/Home/index.html
+   git clone [https://bhumikakri.github.io/Wynk_Music/Home/index.html](https://github.com/Bhumikakri/Wynk_Music.git)
 
 2. Open the `index.html` file in your preferred web browser to start using the Wynk Music clone.
 
