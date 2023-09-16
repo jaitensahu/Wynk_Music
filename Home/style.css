@@ -187,6 +187,7 @@ img{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 300;
+    white-space: nowrap;
 }
 
 
@@ -907,7 +908,7 @@ footer {
         align-items: center;
         justify-content: space-between;
         overflow-x: hidden;
-        padding: inherit;
+        /* padding: inherit; */
     }
     .B-TSongs-sec .B-vdos {
         display: flex;
@@ -949,7 +950,7 @@ footer {
     }
     
     .B-Songs-sec {
-        padding: 5.5rem;
+        padding: 2.5rem;
         padding-top: 0;
         position: relative;
         width: 100%;
@@ -957,10 +958,10 @@ footer {
     }
     .B-Songs-sec .B-vdos {
         display: flex;
-        justify-content:center;
+        /* justify-content:center; */
         font-weight: 900;
         padding: 2rem;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     .B-TSongs-sec {
         padding: 5.5rem;
@@ -995,13 +996,18 @@ footer {
     .Bnavbar .B-header .Bupper-nav .Bnav-content .input input {
         display: none;
     }
+    .B-header .Bupper-nav .Bnav-content {
+        margin-right:1rem ;
+    }
     .B-header .Bupper-nav .login div {
         display: none;
     }
     .Bnavbar .B-header .Bupper-nav .Bnav-content .input {
         border: none;
     }
-
+    .B-header .Bupper-nav .Bnav-content .input {
+        background-color: transparent;
+    }
     .Bcontainer {
         width: 100%;
     }
